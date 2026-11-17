@@ -281,9 +281,7 @@ function renderCustomerRecordsTable(targetPage = null) {
       </div>
 
       <div class="flex flex-wrap items-center gap-2">
-        <button onclick="simulateDemoLead()" class="px-3.5 py-2 rounded-md bg-surface-container-low hover:bg-surface-container text-primary border border-outline-variant/50 text-xs font-semibold min-h-[38px]">
-          + Simulasi 1 Data Test
-        </button>
+        
         <button onclick="exportRecordsCSV()" class="px-3.5 py-2 rounded-md bg-secondary hover:bg-primary text-white text-xs font-semibold flex items-center gap-1.5 min-h-[38px]">
           <span class="material-symbols-outlined text-base">download</span>
           <span>Export CSV</span>
