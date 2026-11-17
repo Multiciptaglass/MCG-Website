@@ -1,0 +1,306 @@
+<!doctype html>
+<html class="light scroll-smooth" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+      Tentang Kami, Legalitas &amp; Rekap Data Customer | MCG Facade Glass &amp;
+      Aluminium
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/data.js"></script>
+    <script src="../js/app.js"></script>
+  </head>
+
+  <body class="bg-surface text-on-surface flex flex-col min-h-screen">
+    <!-- HEADER -->
+    <header
+      class="sticky top-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/30"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between gap-4"
+      >
+        <a href="../index.html" class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 bg-primary rounded-md flex items-center justify-center text-on-primary font-headline font-extrabold"
+          >
+            MCG
+          </div>
+          <div>
+            <div
+              class="font-headline font-bold text-base md:text-lg text-primary leading-tight"
+            >
+              MCG Facade Glass &amp; Aluminium
+            </div>
+            <div
+              class="text-[11px] font-medium text-on-surface-variant uppercase"
+            >
+              Multi Cipta Glass
+            </div>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-1.5">
+          <a
+            href="../index.html"
+            class="px-3.5 py-2.5 rounded-md text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low hover:text-primary"
+            >Beranda</a
+          >
+          <a
+            href="menu/../layanan.html"
+            class="px-3.5 py-2.5 rounded-md text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low hover:text-primary"
+            >Layanan</a
+          >
+          <a
+            href="menu/../galeriproyek.html"
+            class="px-3.5 py-2.5 rounded-md text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low hover:text-primary"
+            >Galeri Proyek</a
+          >
+          <a
+            href="menu/../workshopkeahlian.html"
+            class="px-3.5 py-2.5 rounded-md text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low hover:text-primary"
+            >Workshop &amp; Keahlian</a
+          >
+          <a
+            href="menu/../tentang.html"
+            class="px-3.5 py-2.5 rounded-md text-sm font-semibold bg-secondary-container/60 text-primary flex items-center gap-1.5"
+          >
+            <span>Tentang &amp; Rekap</span>
+            <span
+              class="lead-counter-badge text-[10px] px-2 py-0.5 rounded-full bg-primary text-secondary-fixed"
+              >0 Terekam</span
+            >
+          </a>
+        </nav>
+        <button
+          id="mobile-menu-btn"
+          onclick="toggleMobileMenu()"
+          class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-md border border-outline-variant/50 bg-surface-container-low text-primary"
+        >
+          <span id="mobile-menu-icon" class="material-symbols-outlined text-2xl"
+            >menu</span
+          >
+        </button>
+      </div>
+      <div
+        id="mobile-drawer"
+        class="hidden lg:hidden bg-surface-container-lowest border-b border-outline-variant/40 px-4 pt-3 pb-6 space-y-1.5"
+      >
+        <a
+          href="../index.html"
+          class="block px-4 py-3 rounded-md text-base font-semibold"
+          >Beranda</a
+        >
+        <a
+          href="menu/../layanan.html"
+          class="block px-4 py-3 rounded-md text-base font-semibold"
+          >Layanan</a
+        >
+        <a
+          href="menu/../galeriproyek.html"
+          class="block px-4 py-3 rounded-md text-base font-semibold"
+          >Galeri Proyek</a
+        >
+        <a
+          href="menu/../workshopkeahlian.html"
+          class="block px-4 py-3 rounded-md text-base font-semibold"
+          >Workshop &amp; Keahlian</a
+        >
+        <a
+          href="menu/../tentang.html"
+          class="block px-4 py-3 rounded-md text-base font-semibold bg-secondary-container/60 text-primary"
+          >Tentang &amp; Rekap</a
+        >
+      </div>
+    </header>
+
+    <main class="flex-grow fade-in-up">
+      <section class="bg-primary text-on-primary py-12 md:py-16 blueprint-grid">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-xs text-primary-fixed/80 mb-3">
+            <a href="../index.html" class="hover:text-white">Beranda</a> /
+            <span class="text-secondary-fixed font-semibold"
+              >Tentang Kami &amp; Rekap Customer</span
+            >
+          </div>
+          <h1
+            class="font-headline text-3xl sm:text-5xl font-bold text-white max-w-3xl"
+          >
+            Profil Perusahaan, Legalitas &amp; Arsip Perekaman Customer
+          </h1>
+          <p class="text-primary-fixed/90 text-base sm:text-lg max-w-2xl mt-3">
+            PT Multi Cipta Glass berkomitmen pada presisi rekayasa fasad,
+            kepatuhan legalitas konstruksi nasional, dan transparansi layanan
+            pelanggan.
+          </p>
+        </div>
+      </section>
+
+      <!-- Legalitas -->
+      <section class="py-14 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            class="font-headline text-2xl sm:text-3xl font-bold text-primary mb-8"
+          >
+            Legalitas &amp; Sertifikasi Resmi
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-lg border border-outline-variant/40 shadow-ambient"
+            >
+              <span
+                class="px-2.5 py-1 rounded bg-secondary-container text-on-secondary-fixed font-bold text-xs"
+                >NIB KBLI 43304</span
+              >
+              <h3
+                class="font-headline font-bold text-base text-primary mt-3 mb-1"
+              >
+                Nomor Induk Berusaha
+              </h3>
+              <p class="text-xs sm:text-sm text-on-surface-variant">
+                Dekorasi Interior &amp; Eksterior Kaca, Aluminium, dan Fasad
+                Bangunan.
+              </p>
+            </div>
+            <div
+              class="bg-surface-container-lowest p-6 rounded-lg border border-outline-variant/40 shadow-ambient"
+            >
+              <span
+                class="px-2.5 py-1 rounded bg-secondary-container text-on-secondary-fixed font-bold text-xs"
+                >SBU BG009</span
+              >
+              <h3
+                class="font-headline font-bold text-base text-primary mt-3 mb-1"
+              >
+                Sertifikat Badan Usaha
+              </h3>
+              <p class="text-xs sm:text-sm text-on-surface-variant">
+                Pelaksana Konstruksi Bangunan Gedung &amp; Spesialis Selubung
+                Bangunan.
+              </p>
+            </div>
+            <div
+              class="bg-surface-container-lowest p-6 rounded-lg border border-outline-variant/40 shadow-ambient"
+            >
+              <span
+                class="px-2.5 py-1 rounded bg-secondary-container text-on-secondary-fixed font-bold text-xs"
+                >ISO 9001 &amp; SMK3</span
+              >
+              <h3
+                class="font-headline font-bold text-base text-primary mt-3 mb-1"
+              >
+                Manajemen Mutu &amp; K3
+              </h3>
+              <p class="text-xs sm:text-sm text-on-surface-variant">
+                Standar kualitas fabrikasi workshop serta keselamatan kerja
+                proyek ketinggian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== PANEL REKAMAN CUSTOMER OTOMATIS (PER 10 ORANG = 1 HALAMAN) ==================== -->
+      <section
+        id="rekap-customer"
+        class="py-14 bg-surface-container-low/90 border-y border-outline-variant/40"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="mb-6">
+            <span
+              class="text-xs font-bold uppercase tracking-widest text-secondary"
+              >Sistem Perekaman &amp; Paginasi Otomatis</span
+            >
+            <h2
+              class="font-headline text-2xl sm:text-3xl font-bold text-primary mt-1"
+            >
+              Arsip Data Pengisian Form RAB &amp; Jadwal Kunjungan
+            </h2>
+          </div>
+
+          <!-- Container dirender otomatis oleh js/app.js per 10 orang per halaman -->
+          <div id="customer-records-container"></div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="py-14 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2
+            class="font-headline text-2xl sm:text-3xl font-bold text-primary text-center mb-8"
+          >
+            Pertanyaan Umum (FAQ)
+          </h2>
+          <div id="faq-list" class="space-y-3"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="bg-on-surface text-inverse-on-surface py-8 text-center text-xs text-gray-400"
+    >
+      © 2026 Multi Cipta Glass (MCG Facade Glass &amp; Aluminium) • WA: +62
+      821-1180-9332 • companymulticiptaglass@gmail.com
+    </footer>
+
+    <!-- Modal Notifikasi -->
+    <div
+      id="mcg-modal"
+      class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-on-surface/65 backdrop-blur-xs"
+    >
+      <div
+        class="bg-surface-container-lowest rounded-lg max-w-md w-full p-6 shadow-ambient-lg"
+      >
+        <div
+          class="w-11 h-11 rounded-md bg-secondary-container text-primary flex items-center justify-center mb-3"
+        >
+          <span id="modal-icon" class="material-symbols-outlined text-2xl"
+            >check_circle</span
+          >
+        </div>
+        <h3
+          id="modal-title"
+          class="font-headline font-bold text-lg text-primary mb-2"
+        >
+          Konfirmasi
+        </h3>
+        <p
+          id="modal-body"
+          class="text-sm text-on-surface-variant leading-relaxed mb-5"
+        ></p>
+        <button
+          onclick="closeNotificationModal()"
+          class="w-full py-2.5 bg-primary text-on-primary rounded-md font-semibold text-sm"
+        >
+          Tutup
+        </button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("faq-list").innerHTML = FAQ_DATA.map(
+          (f) => `
+          <details class="bg-surface-container-lowest rounded-lg border border-outline-variant/40 p-5 group">
+            <summary class="font-headline font-bold text-sm sm:text-base text-primary cursor-pointer list-none flex items-center justify-between gap-3">
+              <span>${f.q}</span>
+              <span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <p class="text-sm text-on-surface-variant mt-3 pt-3 border-t border-outline-variant/20 leading-relaxed">${f.a}</p>
+          </details>
+        `,
+        ).join("");
+      });
+    </script>
+  </body>
+</html>
